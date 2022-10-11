@@ -1,0 +1,16 @@
+{
+    "name": "world-gen",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "vulkan",
+        "sdl2",
+        "glm",
+        "spdlog",
+        "stb",
+		"inih",
+		{
+			"name": "imgui",
+      		"features": ["sdl2-binding", "vulkan-binding"]
+		}
+    ]
+}

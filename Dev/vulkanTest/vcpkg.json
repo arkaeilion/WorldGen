@@ -1,0 +1,16 @@
+{
+    "name": "doot",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "glfw3",
+        "vulkan",
+        "glm",
+        "spdlog",
+        "stb",
+		"inih",
+		{
+			"name": "imgui",
+      		"features": ["glfw-binding", "vulkan-binding"]
+		}
+    ]
+}
